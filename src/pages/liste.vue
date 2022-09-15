@@ -1,4 +1,4 @@
-<script setup>
+<script setup="ts">
     import card from "../components/Card.vue";
     import headercard from "../components/Header.vue";
     import footercard from "../components/Footer.vue";
@@ -56,7 +56,7 @@
                   <h1 class="text-3xl font-bold leading-10">Search properties to rent</h1>
                 </div>
                 <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(340px,1fr))]">
-                    <card v-for="maison of maisons" class="p-8" v-bind="maison" :key="=maison.nom"/>
+                    <card v-for="maison of maisons" class="p-8" v-bind="maison" :key="maison.nom"/>
                 </div>
               </template>
     
