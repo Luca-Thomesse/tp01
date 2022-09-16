@@ -12,15 +12,21 @@
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="simple">
+        <router-link class="text-red-600 underline" to="/simple">
           lien vers
           <code class="font-mono">/src/pages/simple.vue</code>
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="liste">
+        <router-link class="text-red-600 underline" to="/liste">
           lien vers
           <code class="font-mono">/src/pages/liste.vue</code>
+        </router-link>
+      </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/edit/new">
+          lien vers
+          <code class="font-mono">/src/pages/edit/new.vue</code>
         </router-link>
       </li>
     </ul>
