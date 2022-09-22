@@ -15,6 +15,7 @@ defineProps ({
     lit: {type:Number, default:3 },
     nbrSDB: {type:Number, default :2},
     taille: {type:Number, default :40 },
+    lieu: {type: String, default : "Beverly Springfield"}
   });
 </script>
 
@@ -51,7 +52,7 @@ defineProps ({
         <heart :class="{ 'fill-red-300': favori }"></heart>
       </div>
       <p class="w-72 flex-shrink-0 flex-grow-0 self-stretch text-left text-base text-gray-900 opacity-50">
-        2821 Lake Sevilla, Palm Harbor, TX
+       {{ lieu }} 
       </p>
       <svg
         width="306"

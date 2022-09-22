@@ -1,0 +1,58 @@
+[
+    {
+        "image": "/public/maison.jpg",
+        "nom": "Faulkner Ave",
+        "lieu": "909 Woodland St, Michigan, IN",
+        "prix": "4550",
+        "nbrSDB": 3,
+        "taille": "300",
+        "lit": 6
+    },
+    {
+        "favoris": "true",
+        "image": "/public/maison.jpg",
+        "nom": "Beverly Springfield",
+        "lieu": "2821 Lake Sevilla Palm Harbor TX",
+        "prix": "3450",
+        "nbrSDB": 2,
+        "taille": "200",
+        "lit": 4
+    },
+    {
+        "image": "/public/maison.jpg",
+        "nom": "Palm Harbor",
+        "lieu": "2699 Green Valley, Highland Lake",
+        "prix": "2095",
+        "nbrSDB": 2,
+        "taille": "350",
+        "lit": 3
+    },
+    {
+        "image": "/public/maison.jpg",
+        "nom": "St. Christal",
+        "lieu": "210 US Highway, HighlandLake, FL",
+        "prix": "4650",
+        "nbrSDB": 2,
+        "taille": "190",
+        "lit": 5
+    },
+    {
+        "favoris": "true",
+        "image": "/public/maison.jpg",
+        "nom": "Tarpon Bay",
+        "lieu": "103 Lake Shores, Michigan, IN",
+        "prix": "4800",
+        "nbrSDB": 3,
+        "taille": "240",
+        "lit": 7
+    },
+    {
+        "image": "/public/maison.jpg",
+        "nom": "Faulkner Ave",
+        "lieu": "909 Woodland St, Michigan, IN",
+        "prix": "4550",
+        "nbrSDB": 3,
+        "taille": "380",
+        "lit": 6
+    }
+]
