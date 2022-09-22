@@ -29,6 +29,12 @@
           <code class="font-mono">/src/pages/edit/new.vue</code>
         </router-link>
       </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/src/pages/liste-fetch.vue">
+          lien vers
+          <code class="font-mono">/src/pages/liste-fetch.vue</code>
+        </router-link>
+      </li>
     </ul>
   </nav>
 
