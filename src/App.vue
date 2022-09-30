@@ -2,43 +2,37 @@
   <nav>
     <h4 class="text-xl">
       <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
-      menu (dans <code class="font-mono">/src/App.vue</code>)
+      menu<code class="font-mono"></code>
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="/">
-          lien vers
-          <code class="font-mono">/src/pages/index.vue</code>
-        </router-link>
-      </li>
-      <li>
         <router-link class="text-red-600 underline" to="/simple">
-          lien vers
-          <code class="font-mono">/src/pages/simple.vue</code>
+          <code class="font-mono">Simple</code>
         </router-link>
       </li>
       <li>
         <router-link class="text-red-600 underline" to="/liste">
-          lien vers
-          <code class="font-mono">/src/pages/liste.vue</code>
+          <code class="font-mono">Liste</code>
         </router-link>
       </li>
       <li>
         <router-link class="text-red-600 underline" to="/edit/new">
-          lien vers
-          <code class="font-mono">/src/pages/edit/new.vue</code>
+          <code class="font-mono">Ajouter une offre</code>
         </router-link>
       </li>
       <li>
         <router-link class="text-red-600 underline" to="/liste-fetch">
-          lien vers
-          <code class="font-mono">/src/pages/liste-fetch.vue</code>
+          <code class="font-mono">Liste Fetch</code>
         </router-link>
       </li>
       <li>
         <router-link class="text-red-600 underline" to="/liste-supabase">
-          lien vers
-          <code class="font-mono">/src/pages/liste-supabase.vue</code>
+          <code class="font-mono">Liste Supabase</code>
+        </router-link>
+      </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/login-logout">
+          <code class="font-mono">Connexion/Déconnexion</code>
         </router-link>
       </li>
     </ul>
